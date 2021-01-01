@@ -159,7 +159,7 @@ distance_matrix_model_all_np = np.array(distance_matrix_model_all)
 #print(distance_matrix_model_all_np)
 
 #Save the results to a csv for further analysis
-#f1 = open('/Users/salman/Documents/DL/Research/Gen Kinks/kinks_numbers_some_epochs_r_.005_for_300_2d_training_samples_4.csv', 'w')
+#f1 = open('./results_kinks/kinks_numbers_some_epochs_r_.005_for_300_2d_training_samples_4.csv', 'w')
 #f1 = open('./results_kinks/distance_matrix_model_number_3000_kinks_1_layer_256 neurons_300_2d_training_samples.csv', 'w')
 writer = csv.writer(f1, delimiter=',')
 #writer.writerows(numbers_of_kinks_model_all_np)
